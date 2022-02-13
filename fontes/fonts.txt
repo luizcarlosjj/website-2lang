@@ -1,3 +1,0 @@
-Font Especial titulo: 'Develuz'
-Font Titulo: 'Rowdies'
-Font padrão: 'Arial'
