@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'Develuz';
+  src: url('/fontes/Develuz.ttf') format('TrueType');
+  font-weight: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
