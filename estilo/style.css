@@ -11,3 +11,68 @@
   margin: 0px;
   padding: 0px;
 }
+
+:root {
+  --cor0: #1B1B1E; /* Fundo */
+  --cor1: #373F51;
+  --cor2: #58A4B0; /* Base */
+  --cor3: #A9BCD0;
+  --cor4: #D8DBE2;
+  --cor5: aliceblue;
+
+  --corw: #fff; 
+  --corb: #000;
+
+  --font-padrao: Arial, Verdana, sans-serif;
+  --font-title: 'Rowdies', cursive;
+  --font-destaque: 'Develuz'
+}
+
+body {
+  background-color: var(--cor0);
+  font-family: var(--font-padrao);
+}
+
+a.externo::after {
+  content: '\00A0\1f517';
+  color: black;
+}
+
+a.externo:visited {
+  color: var(--cor0);
+}
+
+a.externo {
+  color: #1B1B1E;
+}
+
+header {
+  min-height: 105px;
+  min-width: 105px;
+  text-align: center;
+  background-color: var(--cor2);
+}
+
+header > h1 {
+  padding: 5px;
+}
+header > p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header > h2 { /*Poupup*/
+  font-size: 1em;
+  text-align: end;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-family: 'Develuz';
+  color: var(--cor0);
+}
+
+header > h2:hover {
+  color: darkred;
+  text-decoration: underline;
+  transition-duration: 0.4s;
+}
